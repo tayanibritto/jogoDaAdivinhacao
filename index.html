@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Jogo da Adivinhação</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="programa.js"></script>
+</head>
+<body>
+    <header>
+        <h1>O Jogo da Adivinhação</h1>
+        <p>Neste jogo, o código irá gerar um número aleatório entre 1 e 100, e você terá que adivinhar qual é esse número.
+            O jogo te dará pistas, dizendo se o número chutado é maior ou menor que o número secreto.
+            O jogo termina quando você acertar o número ou quando ele atingir o número máximo de tentativas.
+            E aí, vamos começar?
+        </p>
+    </header>
+    <main>
+        <form>
+            <input id="numeroChute" type="number" placeholder="Digite um número de 0 a 100" /><br>
+            <button id="chutar" type="button" onclick="jogar()">Chutar</button>
+            <button id="reiniciar" type="button" onclick="recomecar()">Recomeçar</button>
+        </form>
+        <p id="mensagens"></p>
+        <p id="tentativasRestantes"></p>
+    </main>
+    
+</body>
+</html>
