@@ -8,6 +8,6 @@ Pré-requisitos: Navegador atualizado (projeto foi testado e funciona no Google 
 
 Instalação:
 
-Passos para clonar e rodar: git clone https://github.com/tayanibritto/jogoDaAdivinhacao cd calcularIMC abrir index.html no navegador
+Passos para clonar e rodar: git clone https://github.com/tayanibritto/jogoDaAdivinhacao.git cd calcularIMC abrir index.html no navegador
 Como usar: Digite um número de 0 a 100 e clique em "chutar". Caso queira recomeçar o jogo, clique em "recomeçar".
 Estrutura do Projeto: index.html programa.js style.css
